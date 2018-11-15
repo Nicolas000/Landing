@@ -34,19 +34,25 @@ h4{
 }
 
 #main .carousel-inner img{
-	max-height: 70vh;
+	max-height: 75vh;
 	object-fit: cover;
-	filter: grayscale(70%)
+	filter: grayscale(70%);
+	
+	opacity: 1;
+	
 }
 #carousel{
 	position: relative;
 }
 #carousel .overlay{
-	position: absolute;
+	
+	position: relative;
 	top: 0;
 	bottom: 0;
 	left: 0;
 	right: 0;
+     
+ 
 	background-color: rgba(0, 0, 0, 0.5);
 	color: white;
 }
