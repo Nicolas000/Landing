@@ -1,8 +1,12 @@
 h1,h2,h3,h4,p,span, a{
 	font-family: 'Oswald', sans-serif;
 }
+
+h1{
+	font-size: 7rem;
+}
 .navbar{
-	background: #c00000;
+	background: #012060;
 }
 .navbar img{
 	width: 80px;
@@ -27,24 +31,46 @@ span{
 }
 
 h4{
-	color: #ffd700;
+	color: white;
 	padding-left: 5px;
 	
 
 }
 
+.texto-derecha{
+	    padding-left: 30px;
+}
+
 #main .carousel-inner img{
 	max-height: 75vh;
 	background-repeat: no-repeat;
-	object-fit: cover;
+    object-fit: cover;
+
+
 	filter: grayscale(70%);
 	
 	opacity: 1;
 	
 }
+.carousel-inner .carousel-item .overlay h2{
+
+	
+		font-size:5.5rem;
+	
+	   
+	
+}
+.carousel-inner .carousel-item .overlay h1{
+
+	
+	font-size:5.5rem;
+
+   
+
+}
 #carousel{
 	position: relative;
-
+	
 }
 #carousel .overlay{
 	
@@ -55,7 +81,7 @@ h4{
 	right: 0;
      
  
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: #0121606b;
 	color: white;
 }
 
@@ -65,19 +91,73 @@ h4{
 }
 .card-img-top {
     width: 100%;
-    height: 15vw;
-	object-fit: cover;
-	border-radius: 10px;
-}
-.card{
-	height:200px	
+    max-height: 127px;
 
+}
+
+#comotrabajamos2{
+background: url(assets/quehacemos.jpg);
+background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	position: relative;
+	color: white;
+	filter: grayscale(40%);
+
+}
+#comotrabajamos2 .overlay{
+	position: relative;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
+     
+ 
+	background-color: rgba(0, 0, 0, 0.5);
+
+
+}
+
+#comotrabajamos {
+	background:#007bff;
+	background-size: cover;
 }
 
 #somos {
-	background:#dc3545;
+	background:#012060;
 	background-size: cover;
 }
+
+#diagnostico  {
+   
+background: url(assets/panoramico.jpg);
+
+background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+
+filter: grayscale(10%);
+background-repeat: no-repeat;
+	
+	
+}
+#diagnostico .overlay{
+		width: 100%;
+		position: relative;
+		background-color: rgba(0, 0, 0, 0.5);
+}
+#diagnostico .overlay img{
+	width: 50%;
+	
+
+}
+
+
+
+
 
 #persona {
  
@@ -204,7 +284,7 @@ background-repeat: no-repeat;
 		transition: transform 0.5s;
 	}
 	.btn-custom  {
-	  background:#dc3545; color:#fff; border-radius:20px
+	  background:#007bff; color:#fff; border-radius:20px
 	}
 	
 	.img-float {
@@ -228,7 +308,7 @@ background-repeat: no-repeat;
 	.circle {
 		padding: 13px 20px;
 		border-radius: 50%;
-		background-color: #ED8D8D;
+		background-color: #007bff;
 		color: #fff;
 		max-height: 50px;
 		z-index: 2;
@@ -240,7 +320,7 @@ background-repeat: no-repeat;
 	.how-it-works.row .col-2::after {
 		content: "";
 		position: absolute;
-		border-left: 3px solid #ED8D8D;
+		border-left: 3px solid #007bff;
 		z-index: 1;
 	}
 	.how-it-works.row .col-2.bottom::after {
@@ -264,7 +344,7 @@ background-repeat: no-repeat;
 		height: 40px;
 	}
 	.timeline hr {
-		border-top: 3px solid #ED8D8D;
+		border-top: 3px solid #007bff;
 		margin: 0;
 		top: 17px;
 		position: relative;
@@ -274,7 +354,7 @@ background-repeat: no-repeat;
 		overflow: hidden;
 	}
 	.timeline .corner {
-		border: 3px solid #ED8D8D;
+		border: 3px solid #007bff;
 		width: 100%;
 		position: relative;
 		border-radius: 15px;
@@ -298,43 +378,49 @@ background-repeat: no-repeat;
 
 
 
-	.box > .icon { text-align: center; position: relative;}
-	.box > .icon > .image { position: relative; z-index: 2; margin: auto; width: 88px; height: 88px; border: 8px solid white; line-height: 88px; border-radius: 50%; background: black; vertical-align: middle; }
-	.box > .icon:hover > .image { background: #dc3545; }
-	.box > .icon > .image > i { font-size: 36px !important; color: #fff !important; }
-	.box > .icon:hover > .image > i { color: white !important; }
-	.box > .icon > .info { margin-top: -24px; border: 1px solid black; padding: 15px 0 10px 0;  background: white; }
-	.box > .icon:hover > .info {  border-color: black; color: black; }
-	.box > .icon > .info > h3.title { font-size: 1.8rem; color: black; font-weight: 500; }
-	.box > .icon > .info > p {  font-size: 1.3rem; color: black; line-height: 1.5em; margin: 22px;}
-	.box > .icon > .info > .well {  font-size: 1.2rem; color: black; line-height: 1.0em;  font-weight: 500;  }
-	.box > .icon:hover > .info > h3.title, .box > .icon:hover > .info > p, .box > .icon:hover > .info > .more > a { color: black; }
-	.box > .icon > .info > .more a {   font-size: 1.8rem; color:black; line-height: 15px; text-transform: uppercase; text-decoration: none; }
-	.box > .icon:hover > .info > .more > a { color: black; padding: 6px 8px; background-color: #dc3545; }
-	.box .space { height: 30px; }
+/*Media object*/
+.media 
+{
+  padding-top: 40px;
+}
+.media a:hover, .media a:focus
+{
+  text-decoration: none;
+  outline: none;
+}
+.media .media-left .icon 
+{
+  display: block;
+  width: 80px;
+  height: 80px;
+  padding: 16px 6px;
+  color: #f0f0f0;
+  text-align: center;
+  border-radius: 50%;
+}
+.media .media-left .icon::before
+{
+  font-size: 44px;
+}
+
+@media (min-width: 376px)  {
+.carousel-item {
+max-height: 500px!important;
+
+}
+
+h1{
+	font-size: 5rem;
+}
+h2{
+	font-size: 5rem;
+}
+
+.pagos{
+	position: relative;
+    right: 200px;
+
+}
 
 
-
-
-	@media (min-width: 376px)  {
-		.carousel-item {
-		max-height: 500px!important;
-		
-		}
-		
-		h1{
-			font-size: 4rem;
-		}
-		h2{
-			font-size: 4rem;
-		}
-		p{
-
-			font-size: 1.2rem;
-		}
-		.pagos{
-			position: relative;
-			right: 200px;
-		
-		}
-}	
+}
