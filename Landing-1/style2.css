@@ -47,7 +47,7 @@ h4{
     object-fit: cover;
 
 
-	filter: grayscale(70%);
+	filter: grayscale(80%);
 	
 	opacity: 1;
 	
@@ -73,7 +73,8 @@ h4{
 	
 }
 #carousel .overlay{
-	
+    height: 400px;
+  
 	position: relative;
 	top: 0;
 	bottom: 0;
@@ -81,7 +82,7 @@ h4{
 	right: 0;
      
  
-	background-color: #0121606b;
+	background-color: rgba(0, 0, 0, 0.6);
 	color: white;
 }
 
@@ -119,9 +120,10 @@ background-position: center;
 
 }
 
-#comotrabajamos {
-	background:#007bff;
+#comotrabajamos  {
+	background-color:#012060;
 	background-size: cover;
+	color: white
 }
 
 #somos {
@@ -206,7 +208,7 @@ background-repeat: no-repeat;
 
 
 #diferencia {
-	background: #333;
+	background: rgb(51, 51, 51);
 
 }
 #diferencia .container-fluid {
@@ -410,10 +412,10 @@ max-height: 500px!important;
 }
 
 h1{
-	font-size: 5rem;
+	font-size: 4rem;
 }
 h2{
-	font-size: 5rem;
+	font-size: 4rem;
 }
 
 .pagos{

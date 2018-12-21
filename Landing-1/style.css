@@ -47,7 +47,7 @@ h4{
 
 }
 #carousel .overlay{
-	
+	height: 450px;
 	position: relative;
 	top: 0;
 	bottom: 0;
